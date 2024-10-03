@@ -41,8 +41,8 @@ buildscript {
     ext.target_sdk_version = 29
 
     repositories {
-        jcenter()
         google()
+        mavenCentral()
     }
 
     dependencies {
@@ -54,8 +54,8 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
         google()
+        mavenCentral()
     }
 }
 
